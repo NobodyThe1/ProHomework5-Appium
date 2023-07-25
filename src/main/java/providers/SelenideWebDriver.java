@@ -41,7 +41,7 @@ public class SelenideWebDriver implements WebDriverProvider {
     }
         private File downloadApk () {
             File apk = new File("Andy-253457-d7ad79.apk");
-            String url = "https://github.com/appium/sample-code/blob/master/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk?raw=true";
+            String url = "https://github.com/NobodyThe1/ProHomework5-Appium/blob/main/Andy-253457-d7ad79.apk";
             InputStream in = null;
             try {
                 in = new URL(url).openStream();
